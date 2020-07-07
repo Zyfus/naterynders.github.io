@@ -6,18 +6,24 @@
   </head>
   
   <body>
+    meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-      body {background-color: white;}
+      * {
+        box-sizing: border-box;
+      }
       .column {
         float: left;
-        width:50%
+        width: 50%;
+        padding: 10px;
       }
       .row:after {
-        content:"";
+        content: "";
         display: table;
         clear: both;
       }
     </style>
+    <div class="row">
+      <div class="column" style="background-color:#aaa;">
     <h1>Experience</h1>
       <h3>Jahn Transfer, Roseville - <i>LTL Dock Truck Driver</i></h3>
         <p><i>October 2019 - June 2020</i></p>
@@ -39,7 +45,8 @@
       <h3>Bethel University, Arden Hills - <i>Media Communication</i></h3>
         <p><i>August 2012 - May 2014</i></p>
     <p>Obtained a BA in Communication with an emphasis on Media Production</p>
- <div class="column" style="background-color: gray;">
+      </div>
+      <div class="column" style="background-color:#bbb;">
     <h2>Skills</h2>
       <p>Class B CDL</p>
       <p>Communication</p>
@@ -47,5 +54,6 @@
       <p>Multitasking</p>
       <p>Initiative</p>
    </div>
+    </div>
   </body>
 </html>
