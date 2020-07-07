@@ -19,8 +19,10 @@ body {
         clear: both;
       }
       .sborder {
-        border:1px solid black;
+        border: 1px solid black;
+        padding: 5px;
       }
       .osborder {
-        border:1px solid blue;
+        border: 1px solid blue;
+        padding: 5x;
       }
