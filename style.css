@@ -5,9 +5,6 @@ p {
 body {
   background-color: gray;
 }
-      .container {
-        border-style: outset;
-      }
       * {
         box-sizing: border-box;
       }
