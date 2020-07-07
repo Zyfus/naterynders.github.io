@@ -3,7 +3,7 @@ p {
 }
 
 body {
-  background-color: gray;
+  background-color: #aaa;
 }
       * {
         box-sizing: border-box;
@@ -19,5 +19,8 @@ body {
         clear: both;
       }
       .sborder {
-        border-style:solid;
+        border:1px solid black;
+      }
+      .osborder {
+        border:1px solid blue;
       }
