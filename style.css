@@ -19,5 +19,5 @@ body {
         clear: both;
       }
       .bborder {
-  border: 0 0 1px 0 solid black;
+  border-bottom: 5px solid black;
       }
