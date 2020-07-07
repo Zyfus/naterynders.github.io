@@ -21,3 +21,6 @@ body {
       .sborder {
         border: 1px solid black;
       }
+      .pad {
+        padding: 0px 0px 0px 5px
+  }
