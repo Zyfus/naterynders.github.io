@@ -20,9 +20,9 @@ body {
       }
       .sborder {
         border: 1px solid black;
-        padding: 5px;
+        margin: 5px;
       }
       .osborder {
         border: 1px solid blue;
-        padding: 5x;
+        margin: 5px;
       }
